@@ -34,8 +34,29 @@ class BtnLarge extends StatelessWidget {
   }
 }
 
+class BtnMini extends StatelessWidget {
+  final dynamic textBtn;
+  final dynamic textBtnColor;
+  final dynamic btnColor;
+  const BtnMini(
+      {required this.textBtn,
+      required this.textBtnColor,
+      required this.btnColor});
 
-
+  @override
+  Widget build(BuildContext context) {
+    return FloatingActionButton.extended(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+        backgroundColor: btnColor,
+        onPressed: () {},
+        label: Text(
+          textBtn,
+          style: TextStyle(
+            color: textBtnColor,
+          ),
+        ));
+  }
+}
 
 
 /* FloatingActionButton.extended(
