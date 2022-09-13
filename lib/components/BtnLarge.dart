@@ -46,7 +46,7 @@ class BtnMini extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FloatingActionButton.extended(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(100)),
         backgroundColor: btnColor,
         onPressed: () {},
         label: Text(
