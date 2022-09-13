@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:redefastoofpainel_app/components/footer.dart';
 import 'package:redefastoofpainel_app/components/header.dart';
 
 class HomePage extends StatefulWidget {
@@ -20,12 +21,14 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
-          children: [
+           children: [
             Row(
               children: [header()],
             )
           ],
-        ),
+
+          
+         ),
       ),
     );
   }
