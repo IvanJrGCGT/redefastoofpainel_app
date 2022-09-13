@@ -21,8 +21,14 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
-          children: [Footer()],
-        ),
+           children: [
+            Row(
+              children: [header()],
+            )
+          ],
+
+          
+         ),
       ),
     );
   }
