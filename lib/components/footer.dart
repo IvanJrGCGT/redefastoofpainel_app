@@ -7,15 +7,14 @@ import 'appColors.dart';
 Footer() {
   return Container(
     padding: EdgeInsets.symmetric(horizontal: 20),
-    width: double.infinity,
-    height: double.infinity,
     decoration: BoxDecoration(
         color: AppColors.a, borderRadius: BorderRadius.circular(20)),
     child: Column(
       children: [
         CardCustom(
+          widthImg: 200,
           titleCard: 'Lanchin da noite',
-          imgCard: '../../assets/logo-text.png',
+          imgCard: '../../assets/produtos/hamb.png',
           descCard:
               'O melhor hamburguer de frango com batata frita da costa oeste do nordeste mineiro',
         )
